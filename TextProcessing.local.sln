@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextProcessing", "TextProce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextProcessing.Numbers", "TextProcessing.Numbers\TextProcessing.Numbers.csproj", "{8749F547-55D0-45E3-8348-F8D2A9D15762}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberProcessing", "NumberProcessing\NumberProcessing\NumberProcessing.csproj", "{A1CE8DC2-4067-4177-8DB5-BA769DDF63AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberProcessing", "..\NumberProcessing\NumberProcessing\NumberProcessing.csproj", "{A1CE8DC2-4067-4177-8DB5-BA769DDF63AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberProcessing.Units", "NumberProcessing\NumberProcessing.Units\NumberProcessing.Units.csproj", "{358D5E13-D140-4F4F-913D-8932C138D0A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberProcessing.Units", "..\NumberProcessing\NumberProcessing.Units\NumberProcessing.Units.csproj", "{358D5E13-D140-4F4F-913D-8932C138D0A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

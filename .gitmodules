@@ -1,0 +1,3 @@
+[submodule "NumberProcessing"]
+	path = NumberProcessing
+	url = https://github.com/rick1906/NumberProcessing
