@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net35;net45</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NumberProcessing\NumberProcessing.Units\NumberProcessing.Units.csproj" />
+    <ProjectReference Include="..\..\NumberProcessing\NumberProcessing\NumberProcessing.csproj" />
+    <ProjectReference Include="..\TextProcessing\TextProcessing.csproj" />
+  </ItemGroup>
+
+</Project>
