@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Statuses
 {
+    /// <summary>
+    /// Status corresponding to a "union" pattern.
+    /// </summary>
     public class StatusUnion : Status
     {
         public Status BaseStatus { get; private set; }

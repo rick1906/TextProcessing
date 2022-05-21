@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Results
 {
+    /// <summary>
+    /// Result curresponding to a "variants" pattern.
+    /// </summary>
     public class ResultVariant : ResultCollection //TODO: inherit from result, not resultcollection
     {
         public ResultVariant(string name, string target, int index, Result result) : base(name, target, index, result.Length, new Result[1] { result })

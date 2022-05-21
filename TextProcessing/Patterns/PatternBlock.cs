@@ -7,6 +7,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Pattern for a sequence of the same elements.
+    /// </summary>
     public class PatternBlock : Pattern<StatusBlock, ResultBlock>
     {
         public int Min { get; private set; }

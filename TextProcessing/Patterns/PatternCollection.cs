@@ -8,6 +8,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Interface for a collection of patterns.
+    /// </summary>
     public interface PatternCollection : IEnumerable<Pattern>
     {
         PatternCollection Add(string name, Pattern pattern);
@@ -27,6 +30,11 @@ namespace TextProcessing.Patterns
         PatternCollection Add(Pattern pattern, char symbol);
     }
 
+    /// <summary>
+    /// Base implementation for a collection of patterns.
+    /// </summary>
+    /// <typeparam name="TStatus"></typeparam>
+    /// <typeparam name="TResult"></typeparam>
     public abstract class PatternCollection<TStatus, TResult> : Pattern<TStatus, TResult>, PatternCollection where TStatus : Status where TResult : Result
     {
         protected List<Pattern> collection;

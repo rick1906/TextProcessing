@@ -8,6 +8,9 @@ using TextProcessing.Patterns.Results;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Pattern for a number.
+    /// </summary>
     public class NumberPattern : SimplePattern
     {
         protected static Regex numberRegex = new Regex(@"\G-?\d+(?:[,\.]\d+)?(?:E-?\d+)?", RegexOptions.IgnoreCase);

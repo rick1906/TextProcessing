@@ -5,6 +5,10 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Results
 {
+    /// <summary>
+    /// Result for a single-value pattern.
+    /// </summary>
+    /// <typeparam name="TValue"></typeparam>
     public class SimpleResult<TValue> : Result
     {
         public TValue Value { get; private set; }

@@ -6,6 +6,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Statuses
 {
+    /// <summary>
+    /// Status corresponding to a "sequence" pattern.
+    /// </summary>
     public class StatusSequence : Status
     {
         protected List<Status> statuses = new List<Status>();

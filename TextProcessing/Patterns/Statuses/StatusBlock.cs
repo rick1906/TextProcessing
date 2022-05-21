@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Statuses
 {
+    /// <summary>
+    /// Status corresponding to a "block" pattern.
+    /// </summary>
     public class StatusBlock : StatusSequence
     {
         protected int minimum;

@@ -7,6 +7,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Base class for an pattern of a single simple element.
+    /// </summary>
     public abstract class SimplePattern : Pattern
     {
         protected abstract Result SimpleMatch(string target, int startIndex);

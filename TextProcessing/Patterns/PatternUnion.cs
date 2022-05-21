@@ -7,6 +7,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Pattern for an element matching multiple patterns.
+    /// </summary>
     public class PatternUnion : PatternCollection<StatusUnion, ResultVariant>
     {
         public PatternUnion()

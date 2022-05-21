@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Statuses
 {
+    /// <summary>
+    /// Status corresponding to a "variants" pattern.
+    /// </summary>
     public class StatusVariants : Status
     {
         public int VariantIndex { get; private set; }

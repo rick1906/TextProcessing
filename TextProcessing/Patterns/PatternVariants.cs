@@ -7,6 +7,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Pattern for an element matching any provided pattern.
+    /// </summary>
     public class PatternVariants : PatternCollection<StatusVariants, ResultVariant>
     {
         public PatternVariants()

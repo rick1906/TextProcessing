@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Results
 {
+    /// <summary>
+    /// Result curresponding to a collection of patterns.
+    /// </summary>
     public abstract class ResultCollection : Result
     {
         protected Result[] results;

@@ -9,6 +9,9 @@ using NumberProcessing.Units;
 
 namespace TextProcessing.Numbers.Patterns
 {
+    /// <summary>
+    /// Pattern for a <c>NumberContainer</c>.
+    /// </summary>
     public class NumberContainerPattern : SimplePattern
     {
         protected Func<NumberContainer, bool> validator;

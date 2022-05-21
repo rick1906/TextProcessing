@@ -7,6 +7,9 @@ using System.Text.RegularExpressions;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Pattern for a string.
+    /// </summary>
     public class StringPattern : SimplePattern
     {
         public Regex Regex { get; private set; }

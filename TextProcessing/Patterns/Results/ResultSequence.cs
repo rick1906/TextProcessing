@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns.Results
 {
+    /// <summary>
+    /// Result curresponding to a "sequence" pattern.
+    /// </summary>
     public class ResultSequence : ResultCollection
     {
         private Dictionary<string, List<Result>> resultsMap = null;

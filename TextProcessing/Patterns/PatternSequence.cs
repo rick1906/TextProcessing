@@ -7,6 +7,9 @@ using System.Text;
 
 namespace TextProcessing.Patterns
 {
+    /// <summary>
+    /// Pattern for a sequence of elements, each matching it's own pattern.
+    /// </summary>
     public class PatternSequence : PatternCollection<StatusSequence, ResultSequence>
     {
         public PatternSequence()
